@@ -57,7 +57,7 @@
       "type": "matsato-sticky-banner",
       "name": "Matsato Sticky Banner",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "enable_sticky": true,
         "padding_desktop": 27,
         "padding_mobile": 28,
