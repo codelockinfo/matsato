@@ -24,33 +24,27 @@
         "product_image_width": 500
       }
     },
-    "rich_text_iWaFyJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_qWCYQq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_qWCYQq"
-      ],
-      "name": "t:sections.rich-text.presets.name",
+    "matsato_sticky_banner_V94Emt": {
+      "type": "matsato-sticky-banner",
+      "name": "Matsato Sticky Banner",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "color_scheme": "scheme-937096a2-837b-4b6e-87de-3899f872bfa3",
+        "enable_sticky": true,
+        "padding_desktop": 12,
+        "padding_mobile": 10,
+        "logo": "shopify://shop_images/svgviewer-png-output_1.png",
+        "logo_text": "matsato",
+        "show_rating": false,
+        "rating_text": "",
+        "banner_text": "BLACKSMITH HERITAGE AT YOUR FINGERTIPS: <strong>Matsato CHEF KNIVES</strong>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "matsato_intro": {
       "type": "matsato-intro",
       "settings": {
+        "color_scheme": "",
         "title": "Beautiful and unique Matsato knives are essential for every chef",
         "content": "<p>We designed the most exceptional chef’s kitchen knife the world has ever seen. People around the world demanded a special knife with more control and balance and we delivered.</p><p>Matsato chef’s knife features a precision, laser-carved index finger hole for superior control. The blade is composed of high quality stainless steel ensuring a sharp, quality knife for the years to come.</p>",
         "button_label": "Order Now!",
@@ -97,13 +91,19 @@
     "matsato_ice_hardening": {
       "type": "matsato-ice-hardening",
       "settings": {
+        "color_scheme": "",
+        "background_overlay_opacity": 0,
         "title": "Forget Dull Knives. Get a Matsato Knife with Ice-Hardening",
         "content": "<p>Ice-hardening technology helps the blade retain its sharpness longer, reducing the need for frequent sharpening. Our professional treatment minimizes residual stresses.</p>"
       }
     },
     "matsato_brand_story": {
       "type": "matsato-brand-story",
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "heading": "The Matsato Story",
+        "heading_alignment": "center"
+      }
     },
     "matsato_reviews": {
       "type": "matsato-reviews",
@@ -127,7 +127,9 @@
         "review_1",
         "review_2"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": ""
+      }
     },
     "matsato_order": {
       "type": "matsato-product-selection",
@@ -167,7 +169,7 @@
   },
   "order": [
     "matsato_hero",
-    "rich_text_iWaFyJ",
+    "matsato_sticky_banner_V94Emt",
     "matsato_intro",
     "matsato_benefits",
     "matsato_ice_hardening",
