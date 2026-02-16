@@ -36,7 +36,7 @@
         "logo_text": "matsato",
         "show_rating": false,
         "rating_text": "",
-        "banner_text": "BLACKSMITH HERITAGE AT YOUR FINGERTIPS: <strong>Matsato CHEF KNIVES</strong>",
+        "banner_text": "BLACKSMITH HERITAGE AT YOUR FINGERTIPS: <strong>Matsato CHEF KNIVES</strong>",
         "button_label": "",
         "button_link": ""
       }
@@ -49,7 +49,7 @@
         "content": "<p>We designed the most exceptional chef’s kitchen knife the world has ever seen. People around the world demanded a special knife with more control and balance and we delivered.</p><p>Matsato chef’s knife features a precision, laser-carved index finger hole for superior control. The blade is composed of high quality stainless steel ensuring a sharp, quality knife for the years to come.</p>",
         "image_1": "shopify://shop_images/m1.avif",
         "image_2": "shopify://shop_images/m2.avif",
-        "button_label": "Order Now!",
+        "button_label": "",
         "button_link": "#order"
       }
     },
@@ -57,7 +57,7 @@
       "type": "matsato-sticky-banner",
       "name": "Matsato Sticky Banner",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "enable_sticky": true,
         "padding_desktop": 27,
         "padding_mobile": 28,
