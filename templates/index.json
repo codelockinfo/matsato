@@ -19,6 +19,30 @@
         "button_link": "#order"
       }
     },
+    "rich_text_iWaFyJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qWCYQq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qWCYQq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "matsato_intro": {
       "type": "matsato-intro",
       "settings": {
@@ -138,6 +162,7 @@
   },
   "order": [
     "matsato_hero",
+    "rich_text_iWaFyJ",
     "matsato_intro",
     "matsato_benefits",
     "matsato_ice_hardening",
