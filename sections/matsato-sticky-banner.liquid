@@ -55,6 +55,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
   }
   
   .matsato-sticky-banner__left {
@@ -100,8 +101,6 @@
   
   .matsato-sticky-banner__content {
     font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
     color: currentColor;
     letter-spacing: 0.05rem;
   }
@@ -110,9 +109,21 @@
     padding: 10px 25px;
     font-size: 0.9rem;
     white-space: nowrap;
+    background-color: rgb(var(--color-button));
+    color: rgb(var(--color-button-text));
+    border: none;
+  }
+
+  .matsato-button--small:hover {
+    background-color: rgb(var(--color-button));
+    opacity: 0.9;
   }
   
   @media (max-width: 768px) {
+    .matsato-sticky-banner__wrapper {
+      flex-direction: column;
+      gap:0px;
+    }
     .matsato-sticky-banner {
       padding: var(--banner-padding-mobile) 0;
     }
@@ -130,9 +141,7 @@
       padding: 8px 15px;
       font-size: 0.8rem;
     }
-    .matsato-sticky-banner__center {
-      display: none;
-    }
+   
   }
 </style>
 
