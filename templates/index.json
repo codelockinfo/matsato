@@ -194,6 +194,94 @@
         "padding_bottom": 36
       }
     },
+    "matsato_exclusive_perks_fNg8dw": {
+      "type": "matsato-exclusive-perks",
+      "blocks": {
+        "perk_PQPrK6": {
+          "type": "perk",
+          "settings": {
+            "image": "shopify://shop_images/svgviewer-png-output_2.png",
+            "text": "EXCLUSIVE VIP DEAL"
+          }
+        },
+        "perk_JTYkeF": {
+          "type": "perk",
+          "settings": {
+            "image": "shopify://shop_images/svgviewer-png-output_3.png",
+            "text": "EXTRA-FAST ORDER PLACEMENT"
+          }
+        },
+        "perk_aWtrxn": {
+          "type": "perk",
+          "settings": {
+            "image": "shopify://shop_images/svgviewer-png-output_4.png",
+            "text": "FAST SHIPPING"
+          }
+        },
+        "perk_mEqVPV": {
+          "type": "perk",
+          "settings": {
+            "image": "shopify://shop_images/svgviewer-png-output_5.png",
+            "text": "PAY CASH ONLY ON DELIVERY!"
+          }
+        }
+      },
+      "block_order": [
+        "perk_PQPrK6",
+        "perk_JTYkeF",
+        "perk_aWtrxn",
+        "perk_mEqVPV"
+      ],
+      "name": "Matsato Exclusive Perks",
+      "settings": {
+        "color_scheme": "scheme-937096a2-837b-4b6e-87de-3899f872bfa3",
+        "heading": "Thank you for choosing us!",
+        "subheading": "In return, claim these exclusive perks today!",
+        "bottom_text": "Cash on delivery is an extra safe payment method, which means you will ONLY PAY FOR YOUR ORDER WHEN IT ARRIVES! We are offering this exclusive payment option only for the select group of chosen customers. Act now before this great deal expires!",
+        "button_label": "ORDER NOW - PAY UPON DELIVERY",
+        "button_link": ""
+      }
+    },
+    "matsato_brand_story_fFM4qr": {
+      "type": "matsato-brand-story",
+      "blocks": {
+        "story_block_mTXYih": {
+          "type": "story_block",
+          "settings": {
+            "image": "shopify://shop_images/s1.avif",
+            "heading": "Techniques passed onthrough generations",
+            "content": "<p>We use high quality stainless steel to craft flawless, durable and beautiful knives inspired by Centuries-old Japanese knife making traditions.</p><p>Each Matsato knife is carefully crafted using a 138-step design and goes through rigorous testing before every shipment.</p>"
+          }
+        },
+        "story_block_yLETY3": {
+          "type": "story_block",
+          "settings": {
+            "image": "shopify://shop_images/s2.avif",
+            "heading": "In love with the artof knife making",
+            "content": "<p>Matsato knives were created out of passion for the art of cooking. We wanted to revolutionise the market by being the first to ever create a specialised Kitchen Knife with a unique blade.</p><p>Traditional Japanese knife making techniques combined with modern approach resulted in this fabulous Matsato santoku knife.</p>"
+          }
+        },
+        "story_block_3AFzPQ": {
+          "type": "story_block",
+          "settings": {
+            "image": "shopify://shop_images/s3.avif",
+            "heading": "Sharpness vs. Comfort- why not have it all?",
+            "content": "<p>Some knives are sharp, but comes with the cost of being fragile and prone to chipping and oxidation.</p><p>We believe real kitchen chef should never have such problems. Matsato knife is extremely sturdy and sharp. Quality stainless steel and beech handle guarantees great performance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "story_block_mTXYih",
+        "story_block_yLETY3",
+        "story_block_3AFzPQ"
+      ],
+      "name": "Matsato Brand Story",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "heading": "When tradition meets modern design",
+        "heading_alignment": "center"
+      }
+    },
     "matsato_benefits": {
       "type": "matsato-benefits",
       "blocks": {
@@ -319,6 +407,8 @@
     "matsato_ice_hardening_Att89J",
     "image_banner_Xn3mRg",
     "video_HzKQXU",
+    "matsato_exclusive_perks_fNg8dw",
+    "matsato_brand_story_fFM4qr",
     "matsato_benefits",
     "matsato_ice_hardening",
     "matsato_brand_story",
