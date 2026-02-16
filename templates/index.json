@@ -12,11 +12,16 @@
     "matsato_hero": {
       "type": "matsato-hero",
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_94e20f4e-5ceb-4c38-9e05-6b49c9e1b3d3.png",
-        "title": "Matsato Knife- Chef Knives That Work",
-        "subtitle": "Premium Knife Inspired by Japanese Tradition",
+        "color_scheme": "",
+        "bg_image": "shopify://shop_images/Untitled_design_94e20f4e-5ceb-4c38-9e05-6b49c9e1b3d3.png",
+        "heading": "<p><strong>Matsato Knife</strong>Chef Knives That Work</p>",
+        "discount_text": "-70%",
+        "last_chance": "Last Chance",
+        "big_promo": "Last day to Grab this BIG Promo",
         "button_label": "Order Now!",
-        "button_link": "#order"
+        "button_link": "#order",
+        "footer_info": "<p>- Only ₹1,795 vs. ₹5,983.33 (retail)<br/>- Available Online Only<br/>- While supplies last</p>",
+        "product_image_width": 500
       }
     },
     "rich_text_iWaFyJ": {
