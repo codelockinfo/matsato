@@ -281,121 +281,6 @@
         "heading": "When tradition meets modern design",
         "heading_alignment": "center"
       }
-    },
-    "matsato_benefits": {
-      "type": "matsato-benefits",
-      "blocks": {
-        "benefit_1": {
-          "type": "benefit",
-          "settings": {
-            "icon_svg": "",
-            "title": "Perfect grip",
-            "text": "The handles consist of high quality Beech Wood."
-          }
-        },
-        "benefit_2": {
-          "type": "benefit",
-          "settings": {
-            "icon_svg": "",
-            "title": "Precisely crafted",
-            "text": "Each and every detail has been checked and taken into account."
-          }
-        },
-        "benefit_3": {
-          "type": "benefit",
-          "settings": {
-            "icon_svg": "",
-            "title": "Pleasurable in every way",
-            "text": "All Matsato knives are extremely sharp and perfectly balanced."
-          }
-        }
-      },
-      "block_order": [
-        "benefit_1",
-        "benefit_2",
-        "benefit_3"
-      ],
-      "settings": {
-        "title": "Order NOW and get FREE Recipe Book!"
-      }
-    },
-    "matsato_ice_hardening": {
-      "type": "matsato-ice-hardening",
-      "settings": {
-        "color_scheme": "",
-        "background_overlay_opacity": 0,
-        "title": "Forget Dull Knives. Get a Matsato Knife with Ice-Hardening",
-        "content": "<p>Ice-hardening technology helps the blade retain its sharpness longer, reducing the need for frequent sharpening. Our professional treatment minimizes residual stresses.</p>"
-      }
-    },
-    "matsato_brand_story": {
-      "type": "matsato-brand-story",
-      "settings": {
-        "color_scheme": "",
-        "heading": "The Matsato Story",
-        "heading_alignment": "center"
-      }
-    },
-    "matsato_reviews": {
-      "type": "matsato-reviews",
-      "blocks": {
-        "review_1": {
-          "type": "review",
-          "settings": {
-            "review_text": "I love my knife it’s so sharp and is so easy to use. I’ve given 6 of them as gifts to special people who love cooking as I do. They all love their knives too.",
-            "author": "Verified Buyer"
-          }
-        },
-        "review_2": {
-          "type": "review",
-          "settings": {
-            "review_text": "I collect knives of all types and the knife you make is as far as I am concerned about the best it cuts through tomatoes without squashing them",
-            "author": "Happy Chef"
-          }
-        }
-      },
-      "block_order": [
-        "review_1",
-        "review_2"
-      ],
-      "settings": {
-        "color_scheme": ""
-      }
-    },
-    "matsato_order": {
-      "type": "matsato-product-selection",
-      "blocks": {
-        "package_1": {
-          "type": "package",
-          "settings": {
-            "title": "1x Matsato Knife",
-            "price": "$29.95",
-            "compare_at_price": "$59.90",
-            "features": "Premium Beech Handle, Ice-Hardened Steel, Free Recipe Book",
-            "variant_id": "",
-            "is_popular": false
-          }
-        },
-        "package_2": {
-          "type": "package",
-          "settings": {
-            "title": "2x Matsato Knives",
-            "price": "$49.95",
-            "compare_at_price": "$119.80",
-            "features": "BEST DEAL, Premium Beech Handle, Ice-Hardened Steel, Free Recipe Book",
-            "variant_id": "",
-            "is_popular": true
-          }
-        }
-      },
-      "block_order": [
-        "package_1",
-        "package_2"
-      ],
-      "settings": {
-        "title": "Select Your Package",
-        "button_label": "Order Now!"
-      }
     }
   },
   "order": [
@@ -408,11 +293,6 @@
     "image_banner_Xn3mRg",
     "video_HzKQXU",
     "matsato_exclusive_perks_fNg8dw",
-    "matsato_brand_story_fFM4qr",
-    "matsato_benefits",
-    "matsato_ice_hardening",
-    "matsato_brand_story",
-    "matsato_reviews",
-    "matsato_order"
+    "matsato_brand_story_fFM4qr"
   ]
 }
