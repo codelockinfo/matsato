@@ -1,8 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "matsato_hero": {
       "type": "matsato-hero",
       "settings": {
+        "image": "shopify://shop_images/clear-hero-bg.jpg",
         "title": "Matsato Knife - Chef Knives That Work",
         "subtitle": "Premium Knife Inspired by Japanese Tradition",
         "button_label": "Order Now!",
@@ -13,19 +23,18 @@
       "type": "matsato-intro",
       "settings": {
         "title": "Beautiful and unique Matsato knives are essential for every chef",
+        "content": "<p>We designed the most exceptional chef’s kitchen knife the world has ever seen. People around the world demanded a special knife with more control and balance and we delivered.</p><p>Matsato chef’s knife features a precision, laser-carved index finger hole for superior control. The blade is composed of high quality stainless steel ensuring a sharp, quality knife for the years to come.</p>",
         "button_label": "Order Now!",
         "button_link": "#order"
       }
     },
     "matsato_benefits": {
       "type": "matsato-benefits",
-      "settings": {
-        "title": "Order NOW and get FREE Recipe Book!"
-      },
       "blocks": {
         "benefit_1": {
           "type": "benefit",
           "settings": {
+            "icon_svg": "",
             "title": "Perfect grip",
             "text": "The handles consist of high quality Beech Wood."
           }
@@ -33,6 +42,7 @@
         "benefit_2": {
           "type": "benefit",
           "settings": {
+            "icon_svg": "",
             "title": "Precisely crafted",
             "text": "Each and every detail has been checked and taken into account."
           }
@@ -40,6 +50,7 @@
         "benefit_3": {
           "type": "benefit",
           "settings": {
+            "icon_svg": "",
             "title": "Pleasurable in every way",
             "text": "All Matsato knives are extremely sharp and perfectly balanced."
           }
@@ -49,12 +60,16 @@
         "benefit_1",
         "benefit_2",
         "benefit_3"
-      ]
+      ],
+      "settings": {
+        "title": "Order NOW and get FREE Recipe Book!"
+      }
     },
     "matsato_ice_hardening": {
       "type": "matsato-ice-hardening",
       "settings": {
-        "title": "Forget Dull Knives. Get a Matsato Knife with Ice-Hardening"
+        "title": "Forget Dull Knives. Get a Matsato Knife with Ice-Hardening",
+        "content": "<p>Ice-hardening technology helps the blade retain its sharpness longer, reducing the need for frequent sharpening. Our professional treatment minimizes residual stresses.</p>"
       }
     },
     "matsato_brand_story": {
@@ -63,7 +78,6 @@
     },
     "matsato_reviews": {
       "type": "matsato-reviews",
-      "settings": {},
       "blocks": {
         "review_1": {
           "type": "review",
@@ -83,14 +97,11 @@
       "block_order": [
         "review_1",
         "review_2"
-      ]
+      ],
+      "settings": {}
     },
     "matsato_order": {
       "type": "matsato-product-selection",
-      "settings": {
-        "title": "Select Your Package",
-        "button_label": "Order Now!"
-      },
       "blocks": {
         "package_1": {
           "type": "package",
@@ -99,6 +110,7 @@
             "price": "$29.95",
             "compare_at_price": "$59.90",
             "features": "Premium Beech Handle, Ice-Hardened Steel, Free Recipe Book",
+            "variant_id": "",
             "is_popular": false
           }
         },
@@ -109,6 +121,7 @@
             "price": "$49.95",
             "compare_at_price": "$119.80",
             "features": "BEST DEAL, Premium Beech Handle, Ice-Hardened Steel, Free Recipe Book",
+            "variant_id": "",
             "is_popular": true
           }
         }
@@ -116,7 +129,11 @@
       "block_order": [
         "package_1",
         "package_2"
-      ]
+      ],
+      "settings": {
+        "title": "Select Your Package",
+        "button_label": "Order Now!"
+      }
     }
   },
   "order": [
