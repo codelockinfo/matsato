@@ -1,0 +1,44 @@
+<section class="matsato-section">
+  <div class="matsato-container">
+    <div style="text-align: center; max-width: 800px; margin: 0 auto 50px;">
+      <h2 class="matsato-title">When tradition meets modern design</h2>
+      <p class="matsato-subtitle">Techniques passed on through generations</p>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+      <div class="matsato-benefit-card" style="text-align: left; background: none; box-shadow: none; padding: 0;">
+        <h3 style="color: var(--matsato-accent-color); font-size: 1.4rem;">In love with the art of knife making</h3>
+        <p>Matsato knives were created out of passion for the art of cooking. We wanted to revolutionise the market by being the first to ever create a specialised Kitchen Knife with a unique blade.</p>
+        <p>Traditional Japanese knife making techniques combined with modern approach resulted in this fabulous Matsato santoku knife.</p>
+      </div>
+      
+      <div class="matsato-benefit-card" style="text-align: left; background: none; box-shadow: none; padding: 0;">
+        <h3 style="color: var(--matsato-accent-color); font-size: 1.4rem;">Sharpness vs. Comfort - why not have it all?</h3>
+        <p>Some knives are sharp, but come with the cost of being fragile and prone to chipping and oxidation.</p>
+        <p>We believe real kitchen chef should never have such problems. Matsato knife is extremely sturdy and sharp. Quality stainless steel and beech handle guarantees great performance.</p>
+      </div>
+    </div>
+    
+    <div style="margin-top: 50px; text-align: center;">
+      <img src="{{ section.settings.image | image_url: width: 1200 }}" alt="Matsato Tradition" style="width: 100%; border-radius: 10px;">
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Matsato Brand Story",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Large Story Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Matsato Brand Story"
+    }
+  ]
+}
+{% endschema %}

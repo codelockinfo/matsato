@@ -1,0 +1,56 @@
+<section class="matsato-section" style="background-color: #000; color: #fff;">
+  <div class="matsato-container">
+    <div style="display: flex; align-items: center; gap: 50px; flex-wrap: wrap; flex-direction: row-reverse;">
+      <div style="flex: 1; min-width: 300px;">
+        <img src="{{ section.settings.image | image_url: width: 800 }}" alt="{{ section.settings.title }}" style="width: 100%; border-radius: 10px;">
+      </div>
+      <div style="flex: 1; min-width: 300px;">
+        <h2 class="matsato-title" style="text-align: left; color: #fff;">{{ section.settings.title }}</h2>
+        <div style="font-size: 1.1rem; line-height: 1.6; color: #ccc;">
+          {{ section.settings.content }}
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px;">
+          <div>
+            <h4 style="color: var(--matsato-accent-color);">Proven wear resistance</h4>
+            <p style="font-size: 0.9rem;">We cool Matsato knife steel below -148°F to form martensite.</p>
+          </div>
+          <div>
+            <h4 style="color: var(--matsato-accent-color);">Improved stability</h4>
+            <p style="font-size: 0.9rem;">Enhancing the blade's overall stability and cutting experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Matsato Ice Hardening",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Forget Dull Knives. Get a Matsato Knife with Ice-Hardening"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Ice-hardening technology helps the blade retain its sharpness longer, reducing the need for frequent sharpening. Our professional treatment minimizes residual stresses.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Matsato Ice Hardening"
+    }
+  ]
+}
+{% endschema %}

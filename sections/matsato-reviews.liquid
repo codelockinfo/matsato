@@ -1,0 +1,65 @@
+<section class="matsato-section">
+  <div class="matsato-container">
+    <h2 class="matsato-title">Customer Reviews</h2>
+    <div class="matsato-reviews__grid">
+      {% for block in section.blocks %}
+        <div class="matsato-review-card">
+          <div class="matsato-review-card__stars">
+            {% for i in (1..5) %}
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 0L9.91388 5.92705H16.1481L11.1171 9.57295L13.031 15.5L8 11.8541L2.96901 15.5L4.88291 9.57295L-0.148058 5.92705H6.08612L8 0Z"/></svg>
+            {% endfor %}
+          </div>
+          <p style="font-style: italic; margin-bottom: 15px;">"{{ block.settings.review_text }}"</p>
+          <p style="font-weight: 700; font-size: 0.9rem;">- {{ block.settings.author }}</p>
+          <p style="font-size: 0.8rem; color: #888;">Verified Customer</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Matsato Reviews",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "review_text",
+          "label": "Review Text"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Matsato Reviews",
+      "blocks": [
+        {
+          "type": "review",
+          "settings": {
+            "review_text": "I love my knife it’s so sharp and is so easy to use. I’ve given 6 of them as gifts to special people who love cooking as I do. They all love their knives too.",
+            "author": "Verified Buyer"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "review_text": "I collect knives of all types and the knife you make is as far as I am concerned about the best it cuts through tomatoes without squashing them",
+            "author": "Happy Chef"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

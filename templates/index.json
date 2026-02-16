@@ -1,0 +1,131 @@
+{
+  "sections": {
+    "matsato_hero": {
+      "type": "matsato-hero",
+      "settings": {
+        "title": "Matsato Knife - Chef Knives That Work",
+        "subtitle": "Premium Knife Inspired by Japanese Tradition",
+        "button_label": "Order Now!",
+        "button_link": "#order"
+      }
+    },
+    "matsato_intro": {
+      "type": "matsato-intro",
+      "settings": {
+        "title": "Beautiful and unique Matsato knives are essential for every chef",
+        "button_label": "Order Now!",
+        "button_link": "#order"
+      }
+    },
+    "matsato_benefits": {
+      "type": "matsato-benefits",
+      "settings": {
+        "title": "Order NOW and get FREE Recipe Book!"
+      },
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Perfect grip",
+            "text": "The handles consist of high quality Beech Wood."
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Precisely crafted",
+            "text": "Each and every detail has been checked and taken into account."
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Pleasurable in every way",
+            "text": "All Matsato knives are extremely sharp and perfectly balanced."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3"
+      ]
+    },
+    "matsato_ice_hardening": {
+      "type": "matsato-ice-hardening",
+      "settings": {
+        "title": "Forget Dull Knives. Get a Matsato Knife with Ice-Hardening"
+      }
+    },
+    "matsato_brand_story": {
+      "type": "matsato-brand-story",
+      "settings": {}
+    },
+    "matsato_reviews": {
+      "type": "matsato-reviews",
+      "settings": {},
+      "blocks": {
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "review_text": "I love my knife it’s so sharp and is so easy to use. I’ve given 6 of them as gifts to special people who love cooking as I do. They all love their knives too.",
+            "author": "Verified Buyer"
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "review_text": "I collect knives of all types and the knife you make is as far as I am concerned about the best it cuts through tomatoes without squashing them",
+            "author": "Happy Chef"
+          }
+        }
+      },
+      "block_order": [
+        "review_1",
+        "review_2"
+      ]
+    },
+    "matsato_order": {
+      "type": "matsato-product-selection",
+      "settings": {
+        "title": "Select Your Package",
+        "button_label": "Order Now!"
+      },
+      "blocks": {
+        "package_1": {
+          "type": "package",
+          "settings": {
+            "title": "1x Matsato Knife",
+            "price": "$29.95",
+            "compare_at_price": "$59.90",
+            "features": "Premium Beech Handle, Ice-Hardened Steel, Free Recipe Book",
+            "is_popular": false
+          }
+        },
+        "package_2": {
+          "type": "package",
+          "settings": {
+            "title": "2x Matsato Knives",
+            "price": "$49.95",
+            "compare_at_price": "$119.80",
+            "features": "BEST DEAL, Premium Beech Handle, Ice-Hardened Steel, Free Recipe Book",
+            "is_popular": true
+          }
+        }
+      },
+      "block_order": [
+        "package_1",
+        "package_2"
+      ]
+    }
+  },
+  "order": [
+    "matsato_hero",
+    "matsato_intro",
+    "matsato_benefits",
+    "matsato_ice_hardening",
+    "matsato_brand_story",
+    "matsato_reviews",
+    "matsato_order"
+  ]
+}

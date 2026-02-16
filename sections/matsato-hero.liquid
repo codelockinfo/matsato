@@ -1,0 +1,66 @@
+{{ 'matsato-custom.css' | asset_url | stylesheet_tag }}
+
+<section class="matsato-section matsato-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ section.settings.image | image_url: width: 2000 }}');">
+  <div class="matsato-container">
+    <div class="matsato-hero__content">
+      <h1 class="matsato-hero__title">{{ section.settings.title }}</h1>
+      <p class="matsato-subtitle" style="color: #fff; text-align: left; margin-bottom: 20px;">{{ section.settings.subtitle }}</p>
+      
+      <div class="matsato-hero__badges">
+        <div class="matsato-hero__badge">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 0L12.9389 6.20814L19.7552 7.03013L14.7358 11.6919L16.0334 18.4699L10 15.1L3.9666 18.4699L5.26424 11.6919L0.244764 7.03013L7.06107 6.20814L10 0Z" fill="#ff0000"/></svg>
+          <span>30 Day Money Back Guarantee</span>
+        </div>
+        <div class="matsato-hero__badge">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 0L12.9389 6.20814L19.7552 7.03013L14.7358 11.6919L16.0334 18.4699L10 15.1L3.9666 18.4699L5.26424 11.6919L0.244764 7.03013L7.06107 6.20814L10 0Z" fill="#ff0000"/></svg>
+          <span>Precisely crafted to the last detail</span>
+        </div>
+      </div>
+
+      <a href="{{ section.settings.button_link }}" class="matsato-button">{{ section.settings.button_label }}</a>
+      
+      <p style="margin-top: 15px; font-size: 0.8rem; font-style: italic;">Available ONLINE only</p>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Matsato Hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Matsato Knife - Chef Knives That Work"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subheading",
+      "default": "Premium Knife Inspired by Japanese Tradition"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Order Now!"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Matsato Hero"
+    }
+  ]
+}
+{% endschema %}
