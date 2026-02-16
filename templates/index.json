@@ -177,6 +177,23 @@
         "show_text_below": true
       }
     },
+    "video_HzKQXU": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "heading": "SEE IN ACTION",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?time_continue=15&v=SXO333c_SM8&embeds_referring_euri=https%3A%2F%2Fmatsato-official.com%2F&source_ve_path=Mjg2NjY",
+        "cover_image": "shopify://shop_images/video-thumbnail-2_1.jpg",
+        "description": "",
+        "full_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "matsato_benefits": {
       "type": "matsato-benefits",
       "blocks": {
@@ -301,6 +318,7 @@
     "matsato_product_features_WFn6QR",
     "matsato_ice_hardening_Att89J",
     "image_banner_Xn3mRg",
+    "video_HzKQXU",
     "matsato_benefits",
     "matsato_ice_hardening",
     "matsato_brand_story",
