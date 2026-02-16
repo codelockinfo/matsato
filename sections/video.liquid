@@ -46,8 +46,8 @@
       {% endif %}
     >
       {%- unless section.settings.heading == blank -%}
-        <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+        <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="text-align: {{ section.settings.heading_alignment }};">
+          <h2 class="title inline-richtext {{ section.settings.heading_size }}" style="width: 100%;">{{ section.settings.heading }}</h2>
         </div>
       {%- endunless -%}
     </div>
@@ -73,11 +73,7 @@
         {%- else -%}
           {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
         {%- endif -%}
-        <span class="deferred-media__poster-button motion-reduce">
-          <span class="svg-wrapper">
-            {{- 'icon-play.svg' | inline_asset_content -}}
-          </span>
-        </span>
+        
       </button>
       <template>
         {%- if section.settings.video == null and section.settings.video_url != null -%}
@@ -130,6 +126,12 @@
   },
   "settings": [
     {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-4"
+    },
+    {
       "type": "inline_richtext",
       "id": "heading",
       "default": "t:sections.video.settings.heading.default",
@@ -162,6 +164,12 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text_alignment",
+      "id": "heading_alignment",
+      "label": "Heading alignment",
+      "default": "center"
     },
     {
       "type": "checkbox",
@@ -214,12 +222,6 @@
       "id": "full_width",
       "label": "t:sections.video.settings.full_width.label",
       "default": false
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
     },
     {
       "type": "header",

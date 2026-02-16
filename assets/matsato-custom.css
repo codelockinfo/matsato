@@ -1,10 +1,35 @@
 :root {
   --matsato-primary-color: #000000;
   --matsato-secondary-color: #ffffff;
-  --matsato-accent-color: #ff0000; /* Traditional Japanese Red accent */
+  --matsato-accent-color: #ff0000;
+  /* Traditional Japanese Red accent */
   --matsato-bg-light: #f9f9f9;
-  --matsato-font-heading: "Inter", sans-serif;
-  --matsato-font-body: "Inter", sans-serif;
+  --matsato-font-family: 'Montserrat', sans-serif;
+  --matsato-font-heading: var(--matsato-font-family);
+  --matsato-font-body: var(--matsato-font-family);
+
+  /* Overriding theme variables for global coverage */
+  --font-body-family: var(--matsato-font-family);
+  --font-heading-family: var(--matsato-font-family);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+div,
+li,
+input,
+button,
+select,
+textarea {
+  font-family: var(--matsato-font-family) !important;
 }
 
 .matsato-section {
@@ -109,7 +134,7 @@
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
 
@@ -136,4 +161,40 @@
 .matsato-review-card__stars {
   color: #ffc107;
   margin-bottom: 10px;
+}
+
+/* Dark Section Utilities */
+.matsato-section--dark {
+  background-color: #151515;
+  color: #fff;
+}
+
+.matsato-text-muted {
+  color: #b9b9b9;
+}
+
+.matsato-image-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 576px) {
+  .matsato-image-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.banner__box.content-container {
+  background-color: transparent !important;
+  max-width: 500px;
+
+}
+
+.banner__text {
+  font-size: 32px;
+}
+
+.video-section .title-wrapper .title {
+  font-size: 32px;
 }
