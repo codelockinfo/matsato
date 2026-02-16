@@ -12,8 +12,8 @@
     "matsato_hero": {
       "type": "matsato-hero",
       "settings": {
-        "image": "shopify://shop_images/clear-hero-bg.jpg",
-        "title": "Matsato Knife - Chef Knives That Work",
+        "image": "shopify://shop_images/Untitled_design_94e20f4e-5ceb-4c38-9e05-6b49c9e1b3d3.png",
+        "title": "Matsato Knife- Chef Knives That Work",
         "subtitle": "Premium Knife Inspired by Japanese Tradition",
         "button_label": "Order Now!",
         "button_link": "#order"
@@ -25,8 +25,8 @@
         "heading_qWCYQq": {
           "type": "heading",
           "settings": {
-            "heading": "BLACKSMITH HERITAGE AT YOUR FINGERTIPS: <strong>Matsato CHEF KNIVES</strong>",
-            "heading_size": "h2"
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
           }
         }
       },
@@ -37,10 +37,10 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-937096a2-837b-4b6e-87de-3899f872bfa3",
+        "color_scheme": "",
         "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 28
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "matsato_intro": {
