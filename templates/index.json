@@ -30,8 +30,8 @@
       "settings": {
         "color_scheme": "scheme-937096a2-837b-4b6e-87de-3899f872bfa3",
         "enable_sticky": true,
-        "padding_desktop": 12,
-        "padding_mobile": 10,
+        "padding_desktop": 25,
+        "padding_mobile": 25,
         "logo": "shopify://shop_images/svgviewer-png-output_1.png",
         "logo_text": "matsato",
         "show_rating": false,
@@ -47,8 +47,134 @@
         "color_scheme": "",
         "title": "Beautiful and unique Matsato knives are essential for every chef",
         "content": "<p>We designed the most exceptional chef’s kitchen knife the world has ever seen. People around the world demanded a special knife with more control and balance and we delivered.</p><p>Matsato chef’s knife features a precision, laser-carved index finger hole for superior control. The blade is composed of high quality stainless steel ensuring a sharp, quality knife for the years to come.</p>",
+        "image_1": "shopify://shop_images/m1.avif",
+        "image_2": "shopify://shop_images/m2.avif",
         "button_label": "Order Now!",
         "button_link": "#order"
+      }
+    },
+    "matsato_sticky_banner_CmNHxg": {
+      "type": "matsato-sticky-banner",
+      "name": "Matsato Sticky Banner",
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": true,
+        "padding_desktop": 27,
+        "padding_mobile": 28,
+        "logo": "shopify://shop_images/svgviewer-png-output.png",
+        "logo_text": "matsato",
+        "show_rating": true,
+        "rating_text": "",
+        "banner_text": "",
+        "button_label": "ORDER NOW - PAY UPON DELIVERY",
+        "button_link": ""
+      }
+    },
+    "matsato_product_features_WFn6QR": {
+      "type": "matsato-product-features",
+      "blocks": {
+        "feature_GEFXwU": {
+          "type": "feature",
+          "settings": {
+            "heading": "PERFECT GRIP",
+            "text": "The handles consist of high quality Beech Wood. This is a type of hard wood with a characteristic dark texture, creating a perfect grip.",
+            "icon_type": "none",
+            "icon_svg": "",
+            "pos_top": 28,
+            "pos_left": 36,
+            "line_width": 250,
+            "line_angle": 0
+          }
+        },
+        "feature_gTjVTY": {
+          "type": "feature",
+          "settings": {
+            "heading": "Precisely crafted to the last detail",
+            "text": "Each and every detail has been checked and taken into account, providing you the best quality knives.",
+            "icon_type": "none",
+            "icon_svg": "",
+            "pos_top": 52,
+            "pos_left": 36,
+            "line_width": 250,
+            "line_angle": 0
+          }
+        },
+        "feature_GTjEAf": {
+          "type": "feature",
+          "settings": {
+            "heading": "Pleasurable in every way",
+            "text": "All Matsato knives are extremely sharp. They are perfectly balanced, which makes it comfortable to hold the knives. Cooking has never been more fun.",
+            "icon_type": "none",
+            "icon_svg": "",
+            "pos_top": 52,
+            "pos_left": 36,
+            "line_width": 250,
+            "line_angle": 0
+          }
+        }
+      },
+      "block_order": [
+        "feature_GEFXwU",
+        "feature_gTjVTY",
+        "feature_GTjEAf"
+      ],
+      "name": "Matsato Product Features",
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/properties-knife.avif"
+      }
+    },
+    "matsato_ice_hardening_Att89J": {
+      "type": "matsato-ice-hardening",
+      "name": "Matsato Ice Hardening",
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/ice-knife.jpg",
+        "background_image": "shopify://shop_images/ice-hardening.jpg",
+        "background_overlay_opacity": 0,
+        "title": "Forget Dull Knives. Get a Matsato Knife with Ice-Hardening",
+        "content": "<p>Ice-hardening technology helps the blade retain its sharpness longer, reducing the need for frequent sharpening. Our professional treatment minimizes residual stresses.</p>"
+      }
+    },
+    "image_banner_Xn3mRg": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_3wER6m": {
+          "type": "heading",
+          "settings": {
+            "heading": "WORLD’S GREATEST PREMIUM CONTROL CHEF’S KNIFE",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_6rQTc6": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ORDER NOW - PAY UPON DELIVERY",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3wER6m",
+        "buttons_6rQTc6"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design__2_-removebg-preview.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": true,
+        "color_scheme": "scheme-2",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "matsato_benefits": {
@@ -171,6 +297,10 @@
     "matsato_hero",
     "matsato_sticky_banner_V94Emt",
     "matsato_intro",
+    "matsato_sticky_banner_CmNHxg",
+    "matsato_product_features_WFn6QR",
+    "matsato_ice_hardening_Att89J",
+    "image_banner_Xn3mRg",
     "matsato_benefits",
     "matsato_ice_hardening",
     "matsato_brand_story",
