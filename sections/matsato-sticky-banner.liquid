@@ -1,9 +1,9 @@
-<div id="matsato-sticky-banner-{{ section.id }}" class="matsato-sticky-banner color-{{ section.settings.color_scheme }} gradient {% if section.settings.enable_sticky %}sticky-banner{% endif %}" style="--banner-padding-desktop: {{ section.settings.padding_desktop }}px; --banner-padding-mobile: {{ section.settings.padding_mobile }}px;">
+<div id="matsato-sticky-banner-{{ section.id }}" class="matsato-sticky-banner color-{{ section.settings.color_scheme }} gradient" style="--banner-padding-desktop: {{ section.settings.padding_desktop }}px; --banner-padding-mobile: {{ section.settings.padding_mobile }}px;">
   <div class="matsato-container">
     <div class="matsato-sticky-banner__wrapper">
       <div class="matsato-sticky-banner__left">
         {% if section.settings.logo != blank %}
-          <img src="{{ section.settings.logo | image_url: height: 40 }}" alt="{{ shop.name }}" class="matsato-sticky-banner__logo">
+          <img src="{{ section.settings.logo | image_url: height: 60 }}" alt="{{ shop.name }}" class="matsato-sticky-banner__logo">
         {% else %}
           <span class="matsato-sticky-banner__logo-text">{{ section.settings.logo_text | default: shop.name }}</span>
         {% endif %}
@@ -38,16 +38,37 @@
 </div>
 
 <style>
+  {% if section.settings.enable_sticky %}
+    #shopify-section-{{ section.id }} {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1001;
+      width: 100%;
+      background: rgb(var(--color-background));
+    }
+
+    /* Standard offset for Dawn sticky header */
+    .shopify-section-header-sticky ~ #shopify-section-{{ section.id }},
+    #MainContent #shopify-section-{{ section.id }} {
+       top: var(--header-height, 0);
+    }
+    
+    .shopify-section-header-hidden ~ #shopify-section-{{ section.id }},
+    .shopify-section-header-hidden + #MainContent #shopify-section-{{ section.id }} {
+       top: 0;
+    }
+
+    #shopify-section-{{ section.id }}.isolate {
+      z-index: 1001;
+    }
+  {% endif %}
+
   .matsato-sticky-banner {
     padding: var(--banner-padding-desktop) 0;
     border-bottom: 1px solid rgba(var(--color-foreground), 0.1);
-    z-index: 100;
     transition: all 0.3s ease;
-  }
-  
-  .matsato-sticky-banner.sticky-banner {
-    position: sticky;
-    top: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   }
   
   .matsato-sticky-banner__wrapper {
@@ -55,27 +76,28 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
   }
   
   .matsato-sticky-banner__left {
     display: flex;
     align-items: center;
     gap: 30px;
+    flex-shrink: 0;
   }
   
   .matsato-sticky-banner__logo {
     height: auto;
-    max-height: 35px;
+    max-height: 45px;
     width: auto;
   }
   
   .matsato-sticky-banner__logo-text {
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: lowercase;
     letter-spacing: -1px;
     font-family: var(--matsato-font-heading);
+    color: rgb(var(--color-foreground));
   }
   
   .matsato-sticky-banner__stars {
@@ -100,48 +122,56 @@
   }
   
   .matsato-sticky-banner__content {
-    font-size: 24px;
+    font-size: 1.8rem;
     color: currentColor;
-    letter-spacing: 0.05rem;
+    font-weight: 500;
   }
   
   .matsato-button--small {
-    padding: 10px 25px;
-    font-size: 0.9rem;
+    padding: 12px 30px;
+    font-size: 1.4rem;
     white-space: nowrap;
     background-color: rgb(var(--color-button));
     color: rgb(var(--color-button-text));
-    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
   }
 
   .matsato-button--small:hover {
-    background-color: rgb(var(--color-button));
     opacity: 0.9;
   }
   
+  @media (max-width: 989px) {
+    .matsato-sticky-banner__content {
+      font-size: 1.5rem;
+    }
+  }
+
   @media (max-width: 768px) {
     .matsato-sticky-banner__wrapper {
       flex-direction: column;
-      gap:0px;
+      gap: 10px;
+      text-align: center;
     }
     .matsato-sticky-banner {
       padding: var(--banner-padding-mobile) 0;
     }
     .matsato-sticky-banner__left {
       gap: 15px;
+      justify-content: center;
     }
     .matsato-sticky-banner__stars svg {
       width: 14px;
       height: 14px;
     }
     .matsato-sticky-banner__logo-text {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
     .matsato-button--small {
-      padding: 8px 15px;
-      font-size: 0.8rem;
+      padding: 10px 20px;
+      font-size: 1.2rem;
     }
-   
   }
 </style>
 
